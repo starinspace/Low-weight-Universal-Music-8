@@ -2,6 +2,8 @@
 ### Low-weight-Universal-Music-8
 (Alias name was NEON.)
 
+Note that this is version 4.0 of LUM8
+
 **LUM8** stands for **LLow-weight-Universal-Music-8**. It is a new audio format designed to reduce PCM audio size using adaptive 4-bit differential encoding.
 
 LUM8 is **lossy**, meaning the decoded audio is not identical to the original. The goal is small file size with good audible quality.
