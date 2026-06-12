@@ -20,13 +20,26 @@ Encode WAV/FLAC to LUM8:
 python lum8_encoder.py input.flac output.lum8
 ```
 
+Encode WAV/FLAC to LUM8Z (Compressed):
+
+```bash
+python lum8_encoder.py input.flac output.lum8z
+```
+
 Play the music:
 
 ```bash
 Open lum8_player.html and use to play.
 ```
 
+WAV 44 khz (34 764 kB)
+<img width="4096" height="2048" alt="WAV" src="https://github.com/user-attachments/assets/c46a5733-d892-43ca-b13d-de2f4414931d" />
 
+LUM8 (8 713 kB) - LUM8Z (7 495 kB)
+<img width="4096" height="2048" alt="LUM8" src="https://github.com/user-attachments/assets/290aff89-492e-4c6f-8857-89638626beaa" />
+
+MP3 256k (8 819 kB)
+<img width="4096" height="2048" alt="output" src="https://github.com/user-attachments/assets/a7e91c67-c691-4d24-89c4-8fa00b44aa12" />
 
 ## Short version
 
