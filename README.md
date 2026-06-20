@@ -4,6 +4,9 @@
 
 Alias: NEON
 
+TODO:
+There is a few bugs I need to fix
+
 This is **LUM8 version 5.0**.
 
 **LUM8** is an experimental audio format designed to reduce PCM audio size using adaptive differential encoding.
