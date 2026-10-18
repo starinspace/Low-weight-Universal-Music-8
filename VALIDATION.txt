@@ -1,0 +1,44 @@
+[
+  {
+    "signal": "silence",
+    "optimize": false,
+    "bytes": 44275,
+    "rmse": 0.0
+  },
+  {
+    "signal": "silence",
+    "optimize": true,
+    "bytes": 44275,
+    "rmse": 0.0
+  },
+  {
+    "signal": "tones",
+    "optimize": false,
+    "bytes": 44275,
+    "rmse": 41.33578882326698
+  },
+  {
+    "signal": "tones",
+    "optimize": true,
+    "bytes": 44275,
+    "rmse": 41.155163916655745
+  },
+  {
+    "signal": "noise",
+    "optimize": false,
+    "bytes": 44275,
+    "rmse": 1211.4710743376897
+  },
+  {
+    "signal": "noise",
+    "optimize": true,
+    "bytes": 44275,
+    "rmse": 1203.8161781763038
+  }
+]
+PASS: cross-decoding, bitstream identity for fixed presets, exact native PCM16 turbo, v1, xlow, compressed wrappers, malformed input, stdout.
+
+PASS C ABI: encode, open, info, exact PCM, read, seek, close
+Build environment: Linux x86_64, GCC 13.3, CMake, Release. Windows not tested.
+
+v0.2: reconfigured existing build, built lum8/lum8codec targets, installed only LUM8 component to /tmp/lum8-local-dist. No dependency installation. Linux verified; Windows not executed.
